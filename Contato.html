@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body{
+            background-image: url(Imagens/Shokugeki-no-Souma-1.jpg);
+            background-attachment: fixed;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+    <nav>
+        <a href="Index.html">HOME</a> |
+        <a href="Receita.html">Receita</a> |
+        <a href="Video.html">Video</a> |
+        <a href="Contato.html">Contato</a>
+    </nav>
+    </center>
+    <center>
+    <form class="formulario" method="post"> 
+        <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+        
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+        
+        <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+ 
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>     
+
+        <div class="field">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha*" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="sexo1"><input name="Sexo" id="sexo1" value="m" type="radio"> Masculino</label>
+            <label for="sexo2"><input name="Sexo" id="sexo2" value="f" type="radio"> Feminino</label>
+        </div>
+        <br>
+
+        <form action="/action_page.php">
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto">
+          <option value="Blog">Blog</option>
+          <option value="Video">Video</option>
+        </select>
+      </form>
+        <br>
+        <p>Quais receitas gostariam de ver em nosso site?</p>
+        <div>
+            <input type="checkbox" id="Nhoque Caseiro" name="Nhoque de Forno"
+                   checked>
+            <label for="Nhoque Caseiro">Nhoque Caseiro</label>
+          </div>
+
+        <div>
+             <input type="checkbox" id="Nhoque de Forno" name="horns">
+            <label for="Nhoque de Forno">Nhoque de Forno</label>
+         </div>
+         <br>
+
+         <div class="field">
+            <label for="">Sua Foto:</label>
+            <input type="file" name="foto" required>
+        </div>
+        <br>
+
+        <form action="/action_page.php">
+            <label for="Ingrediente">Qual Ingrediente gostaria de se aprofundar?</label> <br>
+            <input list="Ingredientes">
+            <datalist id="Ingredientes">
+              <option value="Mussarela">
+              <option value="Pressunto">
+              <option value="Molho Branco">
+              <option value="Molho com Carne Moida">
+              <option value="Molho sem Carne Moida">
+            </datalist>
+          </form>
+          <br>
+
+        <div>
+            <label for="">Selecione sua cidade</label>
+            <select required name="cidade" id="cidade">
+                <option selected value="">Selecione</option>
+                <option value="1">São Paulo</option>
+                <option value="2">Rio de Janeiro</option>
+                <option value="3">Minas Gerais</option>
+            </select>
+        </div>
+        <br>
+        
+        <div class="field radiobox">
+            <span>Deseja receber nossas novidades?</span>
+            <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+            <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+        </div>
+
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" rows="5" cols="30" placeholder="Escreva sua mensagem*" required></textarea>
+        </div>
+        
+        <input type="submit" name="acao" value="Enviar">
+    </form>
+    </center>
+
+</body>
+</html>

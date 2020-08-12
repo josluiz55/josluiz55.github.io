@@ -1,0 +1,135 @@
+<html> 
+    <meta charset="UTF-8">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita</title>
+    <style>
+        body{
+            background-image: url(Imagens/Shokugeki-no-Souma-1.jpg);
+            background-attachment: fixed;
+            background-size: 100%;
+            background-repeat: repeat;
+            background-color: black;
+        }
+
+    </style>
+    
+        <button type="button" onclick="Evento()">Cushman & Wakefield</button>
+        <script>
+            function Evento() {
+                alert('SEJA BEM VINDO')
+            }
+        </script>
+    
+        <meta charset="utf-8" />
+        <title>Pablo Silva Arruda</title>
+    
+        <style>
+            .img-class {
+                padding-left: 20px;
+            }
+    
+            .rodape {
+                background-color: red;
+                color: white;
+                border: 3px solid;
+            }
+    
+            
+        </style>
+    
+    </head>
+    
+    
+    <body>
+        <center>
+    <nav>
+        <a href="Index.html">Home</a> |
+        <a href="Receita.html">Receita</a> |
+        <a href="Video.html">Video</a> |
+        <a href="Contato.html">Contato</a>
+    </nav>
+    </center>
+        <center>
+            <img class="img-class"
+                src="https://commercialobserver.com/wp-content/uploads/sites/3/2015/09/cw_logo_color.jpg?quality=80"
+                width="200" height="75" />
+    
+    
+            <h1><b>FORMULARIO</b></h1>
+    
+            <form name="meuform" action="file:///C:/Users/jojol/OneDrive/%C3%81rea%20de%20Trabalho/josluiz55.github.io-master/jose.html" method="get"
+                onsubmit="return validacao();">
+    
+                <fieldset id="cadastrar">
+    
+                    <label for="nome"> Nome </label>
+                    <input type="text" name="nome" />
+                    <br><br>
+                    <label for="telefone"> Telefone </label>
+                    <input type="tel" name="telefone" />
+                    <br><br>
+                    <label for="email"> Email </label>
+                    <input type="email" name="email" />
+                    <br><br>
+                    <label for="endereco"> Endereço </label>
+                    <input type="endereco" name="endereco" />
+                    <br><br>
+                    <button type="submit" name="enviar"> Cadastrar </button>
+                </fieldset>
+    
+            </form>
+            <meta charset="utf-8" />
+            <title> Formulario </title>
+            <script text="text/javascript">
+                function validacao() {
+                    var formulario = document.meuform;
+                    var nome = formulario.nome;
+                    var email = formulario.email;
+                    var telefone = formulario.telefone;
+                    var endereco = formulario.endereço;
+    
+    
+                    if (nome.value == "") {
+                        alert("Insira um nome válido.");
+                        return false;
+                    }
+    
+                    if (telefone.value == "") {
+                        alert("Insira um Telefone válido.");
+                        return false;
+                    }
+    
+                    if (email.value.indexOf("@") == -1 || email.value.indexOf(".") == -1) {
+                        alert("Insira um email válido");
+                        return false;
+                    }
+    
+                    if (endereco.value == "") {
+                        alert("Insira um endereco válido.");
+                        return false;
+                    }
+    
+    
+    
+                    return true;
+                }
+            </script>
+    
+    </body>
+    <div>
+    </div>
+    </center>
+    <br><br>
+    
+    <marquee>
+        <div class="rodape">
+            <center>
+                <h4><b>Cushman & Wakefield</b></h4>
+            </center>
+        </div>
+    </marquee>
+    </body>
+    
+    </html>

@@ -1,11 +1,11 @@
 <?php
 
 
-if(isset($_POST(['email']) && !empty($_POST['email']))){
+if(isset($_get(['email']) && !empty($_get['email']))){
 
-$nome = addslashes($_POST(['name']));
-$email = addslashes($_POST(['email']));
-$mensagem = addslashes($_POST(['message']));
+$nome = addslashes($_get(['name']));
+$email = addslashes($_get(['email']));
+$mensagem = addslashes($_get(['message']));
 
 
 $to = "josluiz55@hotmail.com";

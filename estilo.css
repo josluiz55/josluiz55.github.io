@@ -1,0 +1,83 @@
+ul li{
+    list-style-type: none;
+    width: auto;
+    height: 10px;
+    margin-top: 20px;
+}
+ul li a {
+    color: purple;
+}
+
+div {
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+
+body {
+    width: 20%;
+    height: 110px;
+    border: 1px solid grey;
+    /**cor da borda*/
+    height: 480px;
+    /**ALTURA da borda*/
+    width: 10%;
+    /**lateral da borda*/
+    box-sizing: border-box;
+    box-shadow: 4px 4px 15px black;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 50px;
+}
+
+body>header {
+
+    width: 100px;
+    height: 10px;
+    border: 1px solid grey;
+    /**cor da borda*/
+    height: 480px;
+    /**ALTURA da borda*/
+    width: 600%;
+    /**lateral da borda*/
+    box-sizing: border-box;
+    box-shadow: 4px 4px 15px black;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 150px;
+    margin-top: -124px;
+}
+
+#menu {
+    list-style-type: none;
+    width: auto;
+    height: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#prato1 {
+    background-color: orange;
+    position: absolute;
+    top: 10px;
+    right: 860px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    height: 170px;
+    width: 20%;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+#prato2 {
+    background-color: orange;
+    position: absolute;
+    top: -20px;
+    right: -110%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    height: 170px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}

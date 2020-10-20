@@ -1,84 +1,127 @@
-ul li{
-    list-style-type: none;
+body {
     width: auto;
-    height: 10px;
-    margin-top: 20px;
-}
-ul li a {
-    color: purple;
-}
-
-div {
-    width: auto;
-    height: auto;
     background-color: white;
 }
 
-body {
+
+body>header {
     width: 20%;
     height: 110px;
     border: 1px solid grey;
-    /*cor da borda*/
     height: 480px;
-    /*ALTURA da borda*/
     width: 10%;
-    /*lateral da borda*/
     box-sizing: border-box;
-    box-shadow: 4px 4px 15px black;
+    box-shadow: 4px 4px 8px black ;
     border-radius: 10px 0px 0px 10px;
-    margin-left: 60px;
+    margin-left: 60px;     
 }
 
-body>header {
-
-    width: 100px;
-    height: 10px;
-    border: 1px solid grey;
-    /*cor da borda*/
-    height: 480px;
-    /*ALTURA da borda*/
-    width: 600%;
-    /*lateral da borda*/
-    box-sizing: border-box;
-    box-shadow: 4px 4px 15px black;
-    border-radius: 0px 10px 10px 0px;
-    margin-left: 150px;
-    margin-top: -124px;
+#menu{
+    width: auto;
+    margin-left: -30px;
 }
 
-#menu {
+#menu ul li {
     list-style-type: none;
     width: auto;
     height: 10px;
-    margin-top: 20px;
-    display: inline-block;
+    margin-top: 20px; 
 }
 
-#prato1 {
+#menu ul li a {
+    color:purple;
+}
+
+#conteudo{
+    height: 480px;
+    width: 80%;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 15px black;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 200px;
+    margin-top: -480px;
+}
+   
+
+
+#prato1{
     background-color: orange;
-    position: absolute;
-    top: 10px;
-    right: 860px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    border: 1px solid gray;
-    height: 170px;
-    width: 190px;
+    text-align: center;
+    width: 220px;
+    height: 190px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 8px;
+    border: 1px solid grey;
     border-radius: 10px 10px 0px 0px;
+}
+
+#prato2{
+    background-color: orange;
+    text-align: center;
+    width: 220px;
+    height: 190px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 8px;
+    border: 1px solid grey;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#prato3{
+    background-color: orange;
+    text-align: center;
+    width: 220px;
+    height: 190px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 8px;
+    border: 1px solid grey;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#prato4{
+    background-color: orange;
+    text-align: center;
+    width: 220px;
+    height: 190px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 8px;
+    border: 1px solid grey;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#prato5{
+    background-color: orange;
+    text-align: center;
+    width: 220px;
+    height: 190px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 8px;
+    border: 1px solid grey;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#rodape{
+    border: 1px solid grey;
+    border-radius: 1px 1px 0px 0px;
+    box-sizing: border-box;
+    box-shadow: 10px 3px 25px black;
+    width: 91%;
+    height: 90px;
+    margin-left: 60px;
+    margin-top: 45px;
     text-align: center;
 }
 
-#prato2 {
-    background-color: orange;
-    position: absolute;
-    top: -20px;
-    right: -110%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid gray;
-    height: 170px;
-    width: 190px;
-    border-radius: 10px 10px 0px 0px;
-    text-align: center;
+hr{
+    margin-top: -23px;
 }
